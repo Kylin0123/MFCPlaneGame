@@ -372,7 +372,7 @@ void CMFCPlaneGameView::updateMap(CDC *pDC)
 	image.Load(IDB_BG, AfxGetInstanceHandle());
 	bitmap.Attach(image.Detach());
 	CDC dcCompatible;
-	dcCompatible.CreateCompatibleDC(pDC);  // 创建与当前DC（pDC）兼容的DC
+	dcCompatible.CreateCompatibleDC(pDC); 
 	dcCompatible.SelectObject(&bitmap);
 	pDC->AlphaBlend(0,
 		0,
