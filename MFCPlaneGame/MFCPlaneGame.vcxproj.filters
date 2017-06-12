@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFCPlaneGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCPlaneGameDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCPlaneGameView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BossEnermy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Enermy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OrdinaryEnermy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperWeapon1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperWeapon2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GoodEndDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BadEndDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFCPlaneGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCPlaneGameDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCPlaneGameView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BossEnermy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Enermy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OrdinaryEnermy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperWeapon1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperWeapon2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GoodEndDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BadEndDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCPlaneGame.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCPlaneGame.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCPlaneGameDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MFCPlaneGame.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\hero1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\bullet2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\background.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\bullet1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\enemy1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\enemy3_n1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\game_start.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\game_over.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\game_Reagain.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\hero1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bullet2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\background.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bullet1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\enemy1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\enemy3_n1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\game_start.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\game_over.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\game_Reagain.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
